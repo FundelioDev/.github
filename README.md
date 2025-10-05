@@ -155,13 +155,13 @@
 
 * **An toàn & tốc độ**: Kiểm tra quyền trước mọi hành động; mã hóa mật khẩu; chống spam *(limit pledge)*, chống lại các cuộc tấn công website thường gặp *(SQL injection, XSS, CSRF, DDoS)*; realtime bảng xếp hạng top 10 và thông báo mượt mà.
   
-* **Giao diện**: **Responsive**, hỗ trợ **vi/eng**, **dark/light mode** *(Darkmode lấy mã màu: #1F1F22 và màu chủ đạo xanh dương #0894E2)*, **Font dùng chung cho toàn bộ website: Source Sans 3** *(https://fonts.google.com/specimen/Source+Sans+3)*, hình ảnh rõ nét, không lỗi chính tả.
+* **Giao diện**: **Responsive**, hỗ trợ **vi/eng**, **dark/light mode** *(Darkmode mã màu #1F1F22 và màu chủ đạo xanh dương #0894E2, màu phụ #FFB700)*, **Font dùng chung cho toàn bộ website: Source Sans 3** *(https://fonts.google.com/specimen/Source+Sans+3)*, hình ảnh rõ nét, không lỗi chính tả.
 
 ---
 
 ## <span id="5-hướng-dẫn-sử-dụng--demo" style="color:red;">📽️ 5. Video hướng dẫn sử dụng nền tảng Fundelio</span>
 
-Xem ngay video hướng dẫn sử dụng Fundelio: [https://www.youtube.com/watch?v=_XCsiVHKEoA](https://www.youtube.com/watch?v=_XCsiVHKEoA) 
+Xem ngay video hướng dẫn sử dụng Fundelio: [https://www.youtube.com/watch?v=_XCsiVHKEoA](https://www.youtube.com/watch?v=Fundelio) 
    
 ---
 
