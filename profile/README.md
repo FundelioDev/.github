@@ -92,8 +92,6 @@
 * **Quên/Đặt lại mật khẩu**: Khôi phục mật khẩu qua email bằng liên kết đặt lại.
 * **Bảo mật đa tầng**: Dùng **Passport JWT** để bảo vệ API, mã hóa dữ liệu, quản lý quyền truy cập và đảm bảo an toàn thông tin.
 
----
-
 ### 👥 Vai trò người dùng & Phân quyền
 
 * **Founder**: Tạo/chỉnh sửa **campaign** của chính mình, xem thống kê, nhận thông báo pledge.
@@ -101,8 +99,6 @@
 * **Admin**: Duyệt/từ chối campaign, quản lý người dùng, giám sát thanh toán và thu phí nền tảng.
 
 > Một người dùng có thể có **nhiều vai trò**. Hệ thống luôn **kiểm tra quyền hạn** trước mỗi hành động *(ví dụ: chỉ **Founder** mới có quyền tạo campaign)*.
-
----
 
 ### 📝 **Tạo & Duyệt Campaign**
 
@@ -144,13 +140,13 @@
 ### ⚡ **Realtime & Thông báo**
 
 * Khi có pledge mới thành công, trang chi tiết cập nhật tức thì: thanh tiến độ % tăng với hiệu ứng animation mượt mà, bảng top 10 backers lớn nhất *(ẩn danh hoặc hiển thị tên, sắp xếp động với hiệu ứng lên/xuống khi thay đổi hạng)*, và popup thông báo "Ai đó vừa hỗ trợ 50 USD!".
+  
 * Founder nhận thông báo in-app hoặc email về hỗ trợ mới; backer nhận thông báo cập nhật trạng thái pledge của mình qua lịch sử cá nhân.
 
 ### 🏁 **Tổng kết chiến dịch**
 
-* Khi đến ngày kết thúc campaign:
-  * Nếu tổng hỗ trợ đạt mục tiêu → thành công: Chuyển số tiền cho founder *(trừ 5% phí nền tảng từ tổng pledged thành công)*.
-  * Nếu không đạt → thất bại: Tự động hoàn tiền đầy đủ vào wallet của tất cả backers liên quan *(có thể trừ phí giao dịch nhỏ nếu áp dụng)*.
+* Khi đến ngày kết thúc campaign: Nếu tổng hỗ trợ đạt mục tiêu → thành công: Chuyển số tiền cho founder *(trừ 5% phí nền tảng từ tổng pledged thành công)*. Nếu không đạt → thất bại: Tự động hoàn tiền đầy đủ vào wallet của tất cả backers liên quan *(có thể trừ phí giao dịch nhỏ nếu áp dụng)*.
+  
 * Sau thành công, founder theo dõi fulfillment qua dashboard cơ bản *(xem danh sách backers, phần thưởng cần giao)*; nền tảng không quản lý vận chuyển trực tiếp mà chỉ hỗ trợ xuất báo cáo.
 
 ---
@@ -158,6 +154,7 @@
 ### ⚙️ Yêu cầu khác *(phi kỹ thuật)*
 
 * **An toàn & tốc độ**: Kiểm tra quyền trước mọi hành động; mã hóa mật khẩu; chống spam *(limit pledge)*, chống lại các cuộc tấn công website thường gặp *(SQL injection, XSS, CSRF, DDoS)*; realtime bảng xếp hạng top 10 và thông báo mượt mà.
+  
 * **Giao diện**: **Responsive**, hỗ trợ **vi/eng**, **dark/light mode** *(Darkmode lấy mã màu: #1F1F22 và màu chủ đạo xanh dương #0894E2)*, **Font dùng chung cho toàn bộ website: Source Sans 3** *(https://fonts.google.com/specimen/Source+Sans+3)*, hình ảnh rõ nét, không lỗi chính tả.
 
 ---
