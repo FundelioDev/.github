@@ -37,7 +37,7 @@
 
 * **Thiết thực và có tác động đối với cộng đồng startup**: Hỗ trợ các ý tưởng sáng tạo nhận nguồn lực từ cộng đồng mà **không cần bán cổ phần**.
 * **Tập trung vào minh bạch & tin cậy**: Quy tắc **all-or-nothing** (đạt mục tiêu gây quỹ thì hệ thống mới thu phí backer, founder) + **refund tự động cho backer** khi founder không đạt mục tiêu gây quỹ -> giúp xây dựng niềm tin.
-* **Rèn kỹ năng web hiện đại**: Security (Auth JWT, RBAC), Laravel, MySQL, React.js, WebSocket,... và dễ demo trước lớp.
+* **Rèn kỹ năng web hiện đại**: Security (Auth JWT, RBAC), Spring Boot, MySQL, React.js, WebSocket,... và dễ demo trước lớp.
 
 ---
 
@@ -57,10 +57,11 @@
 ### <span style="font-size:18px;">🔧 Back-end</span>
 
 <div align="left" style="margin: 15px 0 20px 0; display: flex; flex-wrap: wrap;">
-  <img src="https://img.shields.io/badge/-PHP-000?style=for-the-badge&logo=php" alt="PHP" style="margin-right: 19px; margin-bottom: 12px;"/>
-  <img src="https://img.shields.io/badge/-Laravel-000?style=for-the-badge&logo=laravel" alt="Laravel" style="margin-right: 19px; margin-bottom: 12px;"/>
-  <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="Passport JWT" style="margin-right: 19px; margin-bottom: 12px;"/>
-  <img src="https://img.shields.io/badge/-Eloquent_ORM-000?style=for-the-badge&logo=laravel" alt="Eloquent ORM" style="margin-right: 19px; margin-bottom: 12px;"/>
+  <img src="https://img.shields.io/badge/-Java_25-000?style=for-the-badge&logo=openjdk" alt="Java" style="margin-right: 19px; margin-bottom: 12px;"/>
+  <img src="https://img.shields.io/badge/-Spring_Boot_3-000?style=for-the-badge&logo=springboot" alt="Spring Boot" style="margin-right: 19px; margin-bottom: 12px;"/>
+  <img src="https://img.shields.io/badge/-Spring_Security-000?style=for-the-badge&logo=springsecurity" alt="Spring Security" style="margin-right: 19px; margin-bottom: 12px;"/>
+  <img src="https://img.shields.io/badge/-Spring_Data_JPA-000?style=for-the-badge&logo=spring" alt="Spring Data JPA" style="margin-right: 19px; margin-bottom: 12px;"/>
+  <img src="https://img.shields.io/badge/-Maven-000?style=for-the-badge&logo=apachemaven" alt="Maven" style="margin-right: 19px; margin-bottom: 12px;"/>
   <img src="https://img.shields.io/badge/-MySQL-000?style=for-the-badge&logo=mysql" alt="MySQL" style="margin-right: 19px; margin-bottom: 12px;"/>
 </div>
 
@@ -82,7 +83,7 @@
 
 ## <span id="4-các-tính-năng-chính" style="color:red;">🎮 4. Các tính năng chính</span>
 
-### 🛡️ Xác thực & Bảo mật *(triển khai với **Laravel Passport JWT**)*
+### 🛡️ Xác thực & Bảo mật *(triển khai với **Spring Security và JWT**)*
 
 * **Đăng ký tài khoản**: Người dùng đăng ký qua email hoặc số điện thoại; hệ thống gửi email xác thực để kích hoạt tài khoản *(áp dụng cho người dùng từ **18+**)*.
 * **Xác thực email**: Sau khi đăng ký, người dùng nhận email xác thực để kích hoạt; hỗ trợ **gửi lại** email khi cần.
