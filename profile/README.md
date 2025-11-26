@@ -160,7 +160,7 @@
 
 ---
 
-## <span id="#5-huong-dan-su-dung" style="color:red;">📽️ 5. Video hướng dẫn sử dụng nền tảng Fundelio</span>
+## <span id="5-huong-dan-su-dung" style="color:red;">📽️ 5. Video hướng dẫn sử dụng nền tảng Fundelio</span>
 
 Xem ngay video hướng dẫn sử dụng Fundelio: [https://www.youtube.com/watch?v=_XCsiVHKEoA](https://www.youtube.com/watch?v=Fundelio) 
    
