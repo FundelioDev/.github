@@ -6,7 +6,7 @@
 2. [<span style="color:red;">Lý do lựa chọn dự án</span>](#2-lý-do-lựa-chọn-dự-án)
 3. [<span style="color:red;">Công nghệ sử dụng</span>](#3-công-nghệ-sử-dụng)
 4. [<span style="color:red;">Các tính năng chính</span>](#4-các-tính-năng-chính)
-5. [<span style="color:red;">Hướng dẫn sử dụng & Demo</span>](#5-hướng-dẫn-sử-dụng--demo)
+5. [<span style="color:red;">Hướng dẫn sử dụng & Demo</span>](#5-huong-dan-su-dung)
 6. [<span style="color:red;">Nguyên tắc làm việc</span>](#6-nguyên-tắc-làm-việc)
 
 ---
@@ -160,7 +160,7 @@
 
 ---
 
-## <span id="5-hướng-dẫn-sử-dụng--demo" style="color:red;">📽️ 5. Video hướng dẫn sử dụng nền tảng Fundelio</span>
+## <span id="#5-huong-dan-su-dung" style="color:red;">📽️ 5. Video hướng dẫn sử dụng nền tảng Fundelio</span>
 
 Xem ngay video hướng dẫn sử dụng Fundelio: [https://www.youtube.com/watch?v=_XCsiVHKEoA](https://www.youtube.com/watch?v=Fundelio) 
    
